@@ -85,7 +85,7 @@ export default function Layout({ children, title }: LayoutProps) {
         </header>
         <div>{children}</div>
         <footer className="flex justify-center items-center shadow-inner w-full h-10">
-          footer edited by bilguun zail
+          footer edited by bilguun zailaa
         </footer>
       </div>
     </>

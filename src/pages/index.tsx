@@ -1,3 +1,4 @@
+import AboutUsScreen from '@/components/home/AboutUs';
 import IntroScreen from '@/components/home/Intro';
 import ServiceScreen from '@/components/home/Service';
 import Layout from '@/components/Layout';
@@ -7,6 +8,7 @@ export default function Home() {
     <Layout title="Home">
       <IntroScreen />
       <ServiceScreen />
+      <AboutUsScreen />
     </Layout>
   );
 }

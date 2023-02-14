@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import HomeIcon from '@mui/icons-material/Home';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 export interface LayoutProps {
   children: React.ReactNode;
@@ -85,7 +91,31 @@ export default function Layout({ children, title }: LayoutProps) {
         </header>
         <div>{children}</div>
         <footer className="flex justify-center items-center shadow-inner w-full h-10">
-          footer edited by bilguun
+          <div className='grid grid-cols-4 gap-2 w-[678]'>
+            <div>
+              <h1>Бидний тухай</h1>
+              <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ducimus repellat at odit dolorum itaque numquam voluptates quis iusto animi!</div>
+            </div>
+            <div>
+              <h1>Холбоос</h1>
+            </div>
+            <div>
+              <h1>Холбоо барих</h1>
+              <div className="grid ">
+                <HomeIcon className='text-primary-900' />
+                <LocalPhoneIcon className='primary-900' />
+                <MailOutlineIcon className="primary-900" />
+              </div>
+            </div>
+            <div>
+              <h1>Биднийг дагах</h1>
+              <div className='grid '>
+                <TwitterIcon className='text-yallow-900' />
+                <InstagramIcon className='tex-bg-gray-900' />
+                <FacebookIcon className='tex-bg-gray-900' />
+              </div>
+            </div>
+          </div>
         </footer>
       </div>
     </>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function IntroScreen() {
   return (
     <div className="h-[70vh] relative bg-primary bg-[url('/pattern.svg')] bg-[length:43.31px_50px] bg-center bg-fixed ">
-      <div className="container absolute bottom-1/2 right-1/2  translate-x-1/2 translate-y-1/2 h-2/3 grid sm:grid-cols-2 gap-4">
+      <div className="container absolute bottom-1/2 right-1/2  translate-x-1/2 translate-y-1/2 h-2/3 grid sm:grid-cols-2 gap-4 p-4">
         <div className="relative">
           <Image
             src="/icon-white.svg"

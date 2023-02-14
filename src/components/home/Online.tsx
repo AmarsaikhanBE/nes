@@ -4,8 +4,8 @@ export default function OnlineScreen() {
   return (
     <div className="h-screen bg-gradient-to-b from-gray-100 via-primary to-gray-100">
       <div className="w-full h-full bg-[url('/pattern-gray.svg')] bg-[length:43.31px_50px] bg-center flex flex-col justify-center">
-        <div className="container bg-gray-100 shadow-lg px-4 py-10 mx-auto rounded-lg">
-          <div className="flex flex-col lg:flex-row-reverse gap-5">
+        <div className="container px-4 mx-auto">
+          <div className="flex flex-col lg:flex-row-reverse gap-5 bg-white shadow-lg rounded-lg py-10">
             <div className="h-[50vh] w-full lg:w-1/2 mb-4 lg:mb-0">
               <Image
                 src="/online.png"
